@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookkart</title>
+    <link rel="stylesheet" href="book1.css">
+</head>
+<body>
+    <div>
+<h1 class="navbar">BookKart</h1>
+    </div>
+    <div class="container">
+        <div class="box-container">
+<h2>The Bagavad Gita</h2>
+<h5>Bhagavan Shri Krishana</h5>
+<p>
+    "When meditation is mastered,
+The mind is unwavering like the
+Flame of a lamp in a windless place.
+In the still mind,
+In the depths of meditation,
+The Self reveals itself.
+Beholding the Self
+By means of the Self,
+An aspirant knows the
+Joy and peace of complete fulfillment.
+Having attained that
+Abiding joy beyond the senses,
+Revealed in the stilled mind,
+He never swerves from the eternal truth."
+</p>
+<button onclick="delnote(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay">
+        <div class="popup-box">
+            <h2>Add Book</h2>
+            <form >
+                 <input type="text" placeholder="Book Title" id="book-title-input">
+              <input type="text" placeholder="Book Author" id="book-author-input">
+              <textarea name="text" id="txt-area" placeholder="Text Description"></textarea>
+              <button id="add-book"><b>Add</b></button>
+              <button id="Cancel-pop"><b>Cancel </b></button>
+            </form>
+           
+        </div>
+
+    </div>
+    <button class="add-btn" id="add-popup-btn">+</button>
+    <script src="book2.js"></script>
+</body>
+</html>
